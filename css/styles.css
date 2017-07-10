@@ -1,4 +1,25 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+	margin: 0;
+}
+.header-main{
+	display: flex;
+	color: white;
+}
+.header-main-opt{
+	margin-left: auto;
+}
 .main{
 	background-color: #FF8F35;
-	height: 500px;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-nav .active{
+	border-top: 2px solid red;
+}
+.navbar-nav a:hover{
+	border-top: 2px solid gray;
 }

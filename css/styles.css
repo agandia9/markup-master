@@ -33,6 +33,10 @@ h2{
     background-color: darkgray;
     border: 0;
     padding: 0;
+    color: white;
+}
+.search-input::-webkit-input-placeholder{
+	color: white;
 }
 .search-input span, button{
 	z-index: 1;

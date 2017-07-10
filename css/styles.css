@@ -23,3 +23,21 @@ h2{
 .navbar-nav a:hover{
 	border-top: 2px solid gray;
 }
+.search{
+	display: flex;
+	background-color: darkgray;
+}
+.search-input{
+	height: 50px;
+    width: 100%;
+    background-color: darkgray;
+    border: 0;
+    padding: 0;
+}
+.search-input span, button{
+	z-index: 1;
+	background-color: transparent;
+	margin: auto;
+	padding: 0;
+	border: 0;
+}

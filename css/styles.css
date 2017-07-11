@@ -21,15 +21,19 @@ body{
 .header-main-opt {
 	margin-left: auto;
 }
+
 .header-main span {
 	margin-top: 3%;
 }
+
 .header-main span > a{
 	margin-left: 20px;
 }
+
 .header-thr{
 	display: flex;
 }
+
 .header-thr-list{
 	list-style: none;
     display: inline-flex;
@@ -172,7 +176,6 @@ body{
 }
 
 .create-col-new{
-	margin-left: 10px;
 	border: 1px solid grey;
 	padding: 0;
 }
@@ -185,8 +188,21 @@ body{
 	font-weight: bold;
 }
 
-.create-plan{
-	
+.launch{
+	background-color:white;
+}
+.dinner{
+	background-color:white;
+}
+.titles-recipes{
+	display: inline-flex;
+}
+.titles-recipes p{
+	margin-left: 70px;
+}
+.create-plan img{
+	width: 100px;
+	height: 100px;
 }
 /*THUMBNAILS*/
 
@@ -224,18 +240,22 @@ body{
 .thumbs .item .info-recipe ul > li{
 	margin-left: 10px;
 }
+
 .recipes1 > p:first-of-type {
 	text-align: center;
 	color: #FF8F35;
 }
+
 .recipes2 > p:first-of-type {
 	text-align: center;
 	color: #FF8F35;
 }
+
 .recipes3 > p:first-of-type {
 	text-align: center;
 	color: #FF8F35;
 }
+
 .recipes4 > p:first-of-type {
 	text-align: center;
 	color: #FF8F35;
@@ -247,6 +267,7 @@ body{
 	height: 400px;
 	background-color: #E4E4E4;
 }
+
 .footer-c ul{
 	list-style: none;
 }

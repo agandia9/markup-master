@@ -7,6 +7,7 @@ h2 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 body{
 	background-color: #F2F2F2;
 }
@@ -36,8 +37,8 @@ body{
 
 .header-thr-list{
 	list-style: none;
-    display: inline-flex;
-    margin-left: auto;
+	display: inline-flex;
+	margin-left: auto;
 }
 
 .header-thr-list li{
@@ -135,9 +136,9 @@ body{
 
 .info-carousel-brand ul {
 	padding: 10px;
-    display: inline-flex;
-    list-style: none;
-    height: 40px;
+	display: inline-flex;
+	list-style: none;
+	height: 40px;
 }
 
 .info-carousel-brand ul li {
@@ -145,6 +146,7 @@ body{
 }
 
 /*NAVBAR*/
+
 .navbar-collapse ul {
 	list-style: none;
 	display: inline-flex;
@@ -166,7 +168,9 @@ body{
 }
 
 /*FAV & CREATE PLANNING SECTION*/
-
+.create-section{
+	margin: 20px;
+}
 .create-col{
 	padding-top:50px;
 }
@@ -180,6 +184,14 @@ body{
 	padding: 0;
 }
 
+.create-col-new img{
+	width: 100%;
+    height: 100%;
+}
+
+
+
+
 .create-col-new > :last-child{
 	border: 1px solid grey;
 }
@@ -191,19 +203,37 @@ body{
 .launch{
 	background-color:white;
 }
+.launch span{
+	padding: 0;
+}
+.inside-launch{
+	padding: 0; 
+}
+.inside-dinner{
+	padding: 0;
+}
+
 .dinner{
 	background-color:white;
 }
+
 .titles-recipes{
 	display: inline-flex;
 }
+
 .titles-recipes p{
 	margin-left: 70px;
 }
+.create-plan {
+	padding-top: 50px;
+}
+
 .create-plan img{
 	width: 100px;
 	height: 100px;
+	padding: 0;
 }
+
 /*THUMBNAILS*/
 
 .thumbs {
@@ -211,7 +241,9 @@ body{
 	align-self: center;
 	margin-top:50px;
 }
-
+.thumbs img{
+    height: 100%;
+}
 .thumbs .item {
 	height: 280px;
 	width: 250px;
@@ -220,6 +252,9 @@ body{
 	padding: 0px;
 }
 
+/*.thumbs .item:nth-child(2){
+	margin: 0 auto;
+}*/
 .thumbs .item .img-recipe {
 	background-color: lightgray;
 }
@@ -261,13 +296,58 @@ body{
 	color: #FF8F35;
 }
 
+.tools{
+	display: flex;
+}
+
+.thumb-grey{
+	margin-left: 30px;
+	width: 150px;
+	display: inline-flex;
+	height: 100px;
+	background-color: black;
+}
 .footer-c{
+	padding-top: 30px;
 	display: inline-flex;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	background-color: #E4E4E4;
 }
 
 .footer-c ul{
 	list-style: none;
+}
+
+.social-media{
+	background-color: white;
+}
+
+.social-media ul{
+
+	display: inline-flex;
+	list-style: none;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-top: 30px;
+}
+.social-media li{
+	margin-left:20px;
+}
+
+.footer-last{
+	padding-top: 30px;
+	display: inline-flex;
+	width: 100%;
+	background-color: #E4E4E4;
+}
+
+.footer-last ul{
+	list-style: none;
+	display: inline-flex;
+}
+
+.footer-last li{
+	margin-left:10px;
+	
 }

@@ -2,443 +2,594 @@
 <html lang="en" ng-app="markup-oglivy">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Markup Oglivy</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Markup Oglivy</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main">
-        <div class="header-main">
-            <h2>Nestlé</h2>
-            <span class="header-main-opt">
+	<div class="main">
+		<div class="header-main">
+			<h2>Nestlé</h2>
+			<span class="header-main-opt">
 				<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Tu carrito</a>
-            <a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Contacta con nosotros</a>
-            </span>
-        </div>
-        <div>
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Nesté Cocina</a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Recetas <span class="sr-only" s></span></a></li>
-                            <li><a href="#">Trucos</a></li>
-                            <li><a href="#">Cocina con</a></li>
-                            <li><a href="#">Articulos</a></li>
-                            <li><a href="#">Utilidades</a></li>
-                            <li><a href="#">Iniciar sesión</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-        </div>
-        <div class="header-thr">
-            <ul class="header-thr-list">
-                <li>Descubre la app cocina</li>
-                <li>Conoce menú planner</li>
-                <li>Descubre a nuestra Newsletter</li>
-            </ul>
-        </div>
-    </div>
-    <div class="search">
-        <input type="text" class="search-input" placeholder="Buscar palabra clave">
-        <a href="#">Buscador avanzado</a>
-        <button class="glyphicon glyphicon-search"></button>
-    </div>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="http://68.media.tumblr.com/b7355206f8ad142d3a50d722baa1c11d/tumblr_o8pudm4Y0S1st5lhmo1_1280.jpg" alt="img1">
-                <div class="carousel-caption">
-                    <div class="info-carousel">
-                        <p>coleccion destacada</p>
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                        <div class="info-carousel-brand">
-                            <ul>
-                                <li>37 recetas</li>
-                                <li>★★★☆☆ 150</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="http://68.media.tumblr.com/f6e5e17b6eae1b298a52050da8e270d3/tumblr_o8pulnWs9r1st5lhmo1_1280.jpg" alt="img2">
-                <div class="carousel-caption">
-                    <div class="info-carousel">
-                        <p>receta destacada</p>
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                        <div class="info-carousel-brand">
-                            <ul>
-                                <li>37 recetas</li>
-                                <li>★★★☆☆ 150</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="http://68.media.tumblr.com/e0b3c20783debfd2c482ed0c645b83fc/tumblr_o9fk85KVwy1st5lhmo1_1280.jpg" alt="img3">
-                <div class="carousel-caption">
-                    <div class="info-carousel">
-                        <p>artículo destacado</p>
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                        <div class="info-carousel-brand">
-                            <ul>
-                                <li>37 recetas</li>
-                                <li>★★★☆☆ 150</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <div>
-        <div class="create-col col-md-12">
-            <p>MIS COLECCIÓNES DE RECETAS</p>
-            <div class="create-col-new col-md-2">
-                <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                <div>
-                    <p>Favoritas</p>
-                    <p>37 recetas</p>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="create-col-new col-md-2">
-                <img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <div>
-                    <p>Crear nueva coleccion</p>
-                    <p>0 recetas</p>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="create-col-new col-md-2">
-                <img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <div>
-                    <p>Crear nueva coleccion</p>
-                    <p>0 recetas</p>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="create-col-new col-md-2">
-                <img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <div>
-                    <p>Crear nueva coleccion</p>
-                    <p>0 recetas</p>
-                </div>
-            </div>
-        </div>
-        <div class="create-plan col-md-12">
-            <p>LA COMIDA EQUILIBRADA DE HOY EN MENÚ PLANNER </p>
-            <div class="col-md-5 launch">
-                <p>Comida</p>
-                <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <span class="glyphicon glyphicon-plus-sign"></span>
-                <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <span class="glyphicon glyphicon-plus-sign"></span>
-                <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 dinner">
-                <div class="col-md-12">
-                    <p>Cena</p>
-                    <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <span class="glyphicon glyphicon-plus-sign"></span>
-                <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                <span class="glyphicon glyphicon-plus-sign"></span>
-                <img class="img-circle" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
-                </div>
-                <div class="titles-recipes col-md-12">
-                	
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="recipes1">
-        <div class="thumbs col-md-12">
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4 ">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <p>Ver listado completo para Niños</p>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul>
-            <li class="active"><a href="#">FÁCILES <span class="sr-only"></span></a></li>
-            <li><a href="#">RÁPIDAS</a></li>
-            <li><a href="#">BARATAS</a></li>
-            <li><a href="#">PARA TUPPER</a></li>
-            <li><a href="#">SIN CARNE</a></li>
-            <li><a href="#">PARA ANCIANOS</a></li>
-            <li><a href="#">SIN CARNE NI PESCADO</a></li>
-        </ul>
-    </div>
-    <div class="recipes2">
-        <div class="thumbs col-md-12">
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4 ">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                            <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                            <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        <p>Ver listado completo para Niños</p>
-    </div>
-    <div class="recipes3">
-        <div class="thumbs col-md-12">
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4 ">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                            <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                            <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        <p>Ver listado completo para Niños</p>
-    </div>
-    <div class="recipes4">
-        <div class="thumbs col-md-12">
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                        <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                        <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item col-md-4 ">
-                <div class="img-recipe">
-                    <img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
-                </div>
-                <div class="info-recipe">
-                    <p>Lorem ipsum dolor sit amet, ...</p>
-                    <ul>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-refresh"></span>20m</li>
-                            <li><span class="glyphicon glyphicon-education"></span>Fácil</li>
-                            <li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        <p>Ver listado completo para Niños</p>
-    </div>
-    <div class="footer-c col-md-12">
-        <div class="col-md-2">
-            <ul> RECETAS
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>COLECCIONES
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>TRUCOS
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>ARTICULOS
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>COCINA CON
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>UTILIDADES
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-            <ul>AREA PERSONAL
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-            </ul>
-        </div>
-    </div>
-    <div class="social-media">
-    </div>
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+			<a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Contacta con nosotros</a>
+			</span>
+		</div>
+		<div>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Nesté Cocina</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Recetas <span class="sr-only" s></span></a></li>
+							<li><a href="#">Trucos</a></li>
+							<li><a href="#">Cocina con</a></li>
+							<li><a href="#">Articulos</a></li>
+							<li><a href="#">Utilidades</a></li>
+							<li><a href="#">Iniciar sesión</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</div>
+		<div class="header-thr">
+			<ul class="header-thr-list">
+				<li>Descubre la app cocina</li>
+				<li>Conoce menú planner</li>
+				<li>Descubre a nuestra Newsletter</li>
+			</ul>
+		</div>
+	</div>
+	<div class="search">
+		<input type="text" class="search-input" placeholder="Buscar palabra clave">
+		<a href="#">Buscador avanzado</a>
+		<button class="glyphicon glyphicon-search"></button>
+	</div>
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="http://68.media.tumblr.com/b7355206f8ad142d3a50d722baa1c11d/tumblr_o8pudm4Y0S1st5lhmo1_1280.jpg" alt="img1">
+				<div class="carousel-caption">
+					<div class="info-carousel">
+						<p>coleccion destacada</p>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+						<div class="info-carousel-brand">
+							<ul>
+								<li>37 recetas</li>
+								<li>★★★☆☆ 150</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="http://68.media.tumblr.com/f6e5e17b6eae1b298a52050da8e270d3/tumblr_o8pulnWs9r1st5lhmo1_1280.jpg" alt="img2">
+				<div class="carousel-caption">
+					<div class="info-carousel">
+						<p>receta destacada</p>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+						<div class="info-carousel-brand">
+							<ul>
+								<li>37 recetas</li>
+								<li>★★★☆☆ 150</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="http://68.media.tumblr.com/e0b3c20783debfd2c482ed0c645b83fc/tumblr_o9fk85KVwy1st5lhmo1_1280.jpg" alt="img3">
+				<div class="carousel-caption">
+					<div class="info-carousel">
+						<p>artículo destacado</p>
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+						<div class="info-carousel-brand">
+							<ul>
+								<li>37 recetas</li>
+								<li>★★★☆☆ 150</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="create-section">
+		<div class="create-col col-md-12">
+			<p>MIS COLECCIÓNES DE RECETAS</p>
+			<div class="create-col-new col-md-2">
+				<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				<div>
+					<p>Favoritas</p>
+					<p>37 recetas</p>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="create-col-new col-md-2">
+				<img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+				<div>
+					<p>Crear nueva coleccion</p>
+					<p>0 recetas</p>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="create-col-new col-md-2">
+				<img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+				<div>
+					<p>Crear nueva coleccion</p>
+					<p>0 recetas</p>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="create-col-new col-md-2">
+				<img src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+				<div>
+					<p>Crear nueva coleccion</p>
+					<p>0 recetas</p>
+				</div>
+			</div>
+		</div>
+		<div class="create-plan col-md-12">
+			<p>LA COMIDA EQUILIBRADA DE HOY EN MENÚ PLANNER </p>
+			<div class="col-md-5 launch">
+				<p>Comida</p>
+				<div class="col-md-12 inside-launch">
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+					<span class="glyphicon glyphicon-plus-sign col-md-1"></span>
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+					<span class="glyphicon glyphicon-plus-sign col-md-1"></span>
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+				</div>
+				<div class="col-md-12">
+					<p class="col-md-4">lorem</p>
+					<p class="col-md-4">lorem</p>
+					<p class="col-md-4">lorem</p>
+				</div>
+				<p>Acompaña con lorem ipsum</p>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-5 dinner">
+				<p>cena</p>
+				<div class="col-md-12 inside-dinner">
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+					<span class="glyphicon glyphicon-plus-sign col-md-1"></span>
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+					<span class="glyphicon glyphicon-plus-sign col-md-1"></span>
+					<img class="img-circle col-md-4" src="http://forums.x-plane.org/uploads/monthly_2017_04/cibrutORGavatar.thumb.jpg.3e64bb1887f468c75f14c4ba16dd18c6.jpg" alt="">
+				</div>
+				<div class="col-md-12">
+					<p class="col-md-4">lorem</p>
+					<p class="col-md-4">lorem</p>
+					<p class="col-md-4">lorem</p>
+				</div>
+				<p>Acompaña con lorem ipsum</p>
+			</div>
+		</div>
+	</div>
+	<div class="recipes1">
+		<p>Recetas populares</p>
+		<div class="thumbs col-md-12">
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul>
+			<li class="active"><a href="#">IDEAL <span class="sr-only"></span></a></li>
+			<li><a href="#">LA LECHERA</a></li>
+			<li><a href="#">BUITONI</a></li>
+			<li><a href="#">MAGGI</a></li>
+			<li><a href="#">SOLIS</a></li>
+			<li><a href="#">NESTÉ POSTRES</a></li>
+		</ul>
+	</div>
+	<div class="recipes2">
+		<div class="thumbs col-md-12">
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<ul>
+							<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+							<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+							<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<p>COLECCIONES MÁS VISITADAS</p>
+	</div>
+	<div class="recipes3">
+		<div class="thumbs col-md-12">
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<ul>
+							<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+							<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+							<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+						</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p>ARTICULOS DESTACADOS</p>
+	</div>
+	<div class="recipes4">
+		<div class="thumbs col-md-12">
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<ul>
+							<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+							<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+							<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+						</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p>TRUCOS DESTACADOS</p>
+	</div>
+	<div class="recipes5">
+		<div class="thumbs col-md-12">
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<ul>
+							<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+							<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+							<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+						</ul>
+				</div>
+			</div>
+			<div class="item col-md-4 ">
+				<div class="img-recipe">
+					<img src="http://www.w3schools.in/demo/image_upload_and_generate_thumbnail_using_ajax_in_php/img/default.jpg" alt="">
+				</div>
+				<div class="info-recipe">
+					<p>Lorem ipsum dolor sit amet, ...</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-refresh"></span>20m</li>
+						<li><span class="glyphicon glyphicon-education"></span>Fácil</li>
+						<li> <span class="glyphicon glyphicon-object-align-bottom"></span>500kCal</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p>HERRAMIENTAS NESTLÉ PARA UNA VIDA SALUDABLE</p>
+	</div>
+	<div class="tools">
+		<div class="col-md-12">
+			<div class="thumb-grey col-md-4">
+				<p>Menu Planner</p>
+			</div>
+			<div class="thumb-grey col-md-4">
+				<p>Plan familia</p>
+			</div>
+			<div class="thumb-grey col-md-4">
+				<p>Cupones culinarios</p>
+			</div>
+			<div class="thumb-grey col-md-4">
+				<p>A gusto con la vida</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer-c col-md-12">
+		<div class="col-md-2">
+			<ul> RECETAS
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>COLECCIONES
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>TRUCOS
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>ARTICULOS
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>COCINA CON
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>UTILIDADES
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>AREA PERSONAL
+				<li>lorem</li>
+				<li>ipsum</li>
+				<li>dolor</li>
+				<li>sit</li>
+			</ul>
+		</div>
+	</div>
+	<div class="social-media">
+		<ul>Siguenos en:
+			<li>Agusto con la vida</li>
+			<li>La salud se entrena</li>
+			<li>Nesté Cocina</li>
+			<li>Apuntate a nuestro newslatter</li>
+		</ul>
+	</div>
+	<div class="footer-last">
+		<p>2013 Nestlé España. Marcas registradas por Société des Produits Nestlé, S.A. Vevey (Suiza)</p>
+		<ul>
+			<li>Aviso legal</li>
+			<li>Política de privacidad</li>
+			<li>Política de Cookies</li>
+		</ul>
+	</div>
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 
 </html>

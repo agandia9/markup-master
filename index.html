@@ -2,168 +2,172 @@
 <html lang="en" ng-app="markup-oglivy">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Markup Oglivy</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Markup Oglivy</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main">
-        <div class="header-main">
-            <h2>Nestlé</h2>
-            <span class="header-main-opt">
+	<div class="main">
+	<!-- HEADER -->
+		<div class="header-main">
+			<h2>Nestlé</h2>
+			<span class="header-main-opt">
 				<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Tu carrito</a>
-            <a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Contacta con nosotros</a>
-            </span>
-        </div>
-        <div>
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Nesté Cocina</a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="list-nav-header nav navbar-nav ">
-                            <li class="active"><a href="#">Recetas <span class="sr-only" s></span></a></li>
-                            <li><a href="#">Trucos</a></li>
-                            <li><a href="#">Cocina con</a></li>
-                            <li><a href="#">Articulos</a></li>
-                            <li><a href="#">Utilidades</a></li>
-                            <li><a href="#">Iniciar sesión</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-        </div>
-        <div class="header-thr">
-            <ul class="header-thr-list">
-                <li>Descubre la app cocina</li>
-                <li>Conoce menú planner</li>
-                <li>Descubre a nuestra Newsletter</li>
-            </ul>
-        </div>
-        <div class="search">
-        <input type="text" class="search-input" placeholder="Buscar palabra clave">
-        <a href="#">Buscador avanzado</a>
-        <button class="glyphicon glyphicon-search"></button>
-    </div>
-    </div>
-    
-    <div class="includes">
-        <div ng-include src="'templates/carousel.html'"></div>
-        <div ng-include src="'templates/create-section.html'"></div>
-        <div ng-include src="'templates/recipes1.html'"></div>
-        <div ng-include src="'templates/navbar-body.html'"></div>
-        <div ng-include src="'templates/recipes2.html'"></div>
-        <div ng-include src="'templates/recipes3.html'"></div>
-        <div ng-include src="'templates/recipes4.html'"></div>
-        <div ng-include src="'templates/recipes5.html'"></div>
-        <div class="tools">
-            <div class="col-md-12">
-                <div class="thumb-grey col-md-4">
-                    <p>Menu Planner</p>
-                </div>
-                <div class="thumb-grey col-md-4">
-                    <p>Plan familia</p>
-                </div>
-                <div class="thumb-grey col-md-4">
-                    <p>Cupones culinarios</p>
-                </div>
-                <div class="thumb-grey col-md-4">
-                    <p>A gusto con la vida</p>
-                </div>
-            </div>
-        </div>
-        <div class="footer-c col-md-12">
-            <div class="col-md-2">
-                <ul> RECETAS
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>COLECCIONES
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>TRUCOS
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>ARTICULOS
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>COCINA CON
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>UTILIDADES
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <ul>AREA PERSONAL
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
-                </ul>
-            </div>
-        </div>
-        <div class="social-media">
-            <ul>Siguenos en:
-                <li>Agusto con la vida</li>
-                <li>La salud se entrena</li>
-                <li>Nesté Cocina</li>
-                <li>Apuntate a nuestro newslatter</li>
-            </ul>
-        </div>
-        <div class="footer-last">
-            <p>2013 Nestlé España. Marcas registradas por Société des Produits Nestlé, S.A. Vevey (Suiza)</p>
-            <ul>
-                <li>Aviso legal</li>
-                <li>Política de privacidad</li>
-                <li>Política de Cookies</li>
-            </ul>
-        </div>
-    </div>
-    <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+			<a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Contacta con nosotros</a>
+			</span>
+		</div>
+	<!-- FIRST NAVBAR -->
+		<div>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Nesté Cocina</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="list-nav-header nav navbar-nav ">
+							<li class="active"><a href="#">Recetas <span class="sr-only" s></span></a></li>
+							<li><a href="#">Trucos</a></li>
+							<li><a href="#">Cocina con</a></li>
+							<li><a href="#">Articulos</a></li>
+							<li><a href="#">Utilidades</a></li>
+							<li><a href="#">Iniciar sesión</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</div>
+		<div class="header-thr">
+			<ul class="header-thr-list">
+				<li>Descubre la app cocina</li>
+				<li>Conoce menú planner</li>
+				<li>Descubre a nuestra Newsletter</li>
+			</ul>
+		</div>
+		<!-- SEARCH BAR -->
+		<div class="search">
+			<input type="text" class="search-input" placeholder="Buscar palabra clave">
+			<a href="#">Buscador avanzado</a>
+			<button class="glyphicon glyphicon-search"></button>
+		</div>
+	</div>
+	<!-- NG-INCLUDES -->
+	<div class="includes">
+		<div ng-include src="'templates/carousel.html'"></div>
+		<div ng-include src="'templates/create-section.html'"></div>
+		<div ng-include src="'templates/recipes1.html'"></div>
+		<div ng-include src="'templates/navbar-body.html'"></div>
+		<div ng-include src="'templates/recipes2.html'"></div>
+		<div ng-include src="'templates/recipes3.html'"></div>
+		<div ng-include src="'templates/recipes4.html'"></div>
+		<div ng-include src="'templates/recipes5.html'"></div>
+		<div class="tools">
+			<div class="col-md-12">
+				<div class="thumb-grey col-md-4">
+					<p>Menu Planner</p>
+				</div>
+				<div class="thumb-grey col-md-4">
+					<p>Plan familia</p>
+				</div>
+				<div class="thumb-grey col-md-4">
+					<p>Cupones culinarios</p>
+				</div>
+				<div class="thumb-grey col-md-4">
+					<p>A gusto con la vida</p>
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER -->
+		<div class="footer-c col-md-12">
+			<div class="col-md-2">
+				<ul> RECETAS
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>COLECCIONES
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>TRUCOS
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>ARTICULOS
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>COCINA CON
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>UTILIDADES
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>AREA PERSONAL
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor</li>
+					<li>sit</li>
+				</ul>
+			</div>
+		</div>
+		<div class="social-media">
+			<ul>Siguenos en:
+				<li>Agusto con la vida</li>
+				<li>La salud se entrena</li>
+				<li>Nesté Cocina</li>
+				<li>Apuntate a nuestro newslatter</li>
+			</ul>
+		</div>
+		<div class="footer-last">
+			<p>2013 Nestlé España. Marcas registradas por Société des Produits Nestlé, S.A. Vevey (Suiza)</p>
+			<ul>
+				<li>Aviso legal</li>
+				<li>Política de privacidad</li>
+				<li>Política de Cookies</li>
+			</ul>
+		</div>
+	</div>
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 
 </html>
